@@ -2,28 +2,28 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="theme-color" content="#000000">
+    <meta name="theme-color" content="#4285f4">
 <!-- Windows Phone -->
-<meta name="msapplication-navbutton-color" content="#000000">
+<meta name="msapplication-navbutton-color" content="#4285f4">
 <!-- iOS Safari -->
-<meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+<meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
  
     <link href="https://fonts.googleapis.com/css?family=Lato|Nanum+Gothic:700|Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="StyleNeon.css">
 	<title>ADITI</title>
 </head>
 <body>
+	<button onclick="playAudio()" type="button" id="btnaudio">press me>></button>
 <h1 class="glow">Happy Birthday ADITI</h1>
 
 <canvas id="birthday"></canvas>
-<iframe src="music2.mpeg" allow="autoplay" id="audio" style="display:none"></iframe>
-  <div style="display: none">
-    <audio controls>
-      <source src="music2.mp3" type="audio/mpeg">
-    </audio> 
-	</div>
+
+<audio id="myAudio">
+  <source src="music2.mpeg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
 </body>
 <style type="text/css">
 	body {
@@ -31,6 +31,7 @@
   background: #020202;
   cursor: crosshair;
 }
+
 canvas{display:block}
 h1 {
   position: absolute;
@@ -61,6 +62,55 @@ h1 {
   to {
     text-shadow: 0 0 10px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+.btn {
+  flex: 1 1 auto;
+  margin: 5px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+.btn-4 {
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+}
+#btnaudio
+{
+	
+	margin-left: 30%;
+	margin-top: 20px;
+	background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
 }
 </style>
 
@@ -224,4 +274,16 @@ document.ontouchstart = evt => birthday.onClick(evt)
 
   })()
 </script>
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+
 </html>
