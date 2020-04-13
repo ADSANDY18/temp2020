@@ -18,7 +18,7 @@
 <h1 class="glow">Happy Birthday ADITI</h1>
 
 <canvas id="birthday"></canvas>
-<iframe  src="https://www.youtube.com/embed/3kfi54t23pY" allow="autoplay" style="display: none"></iframe>
+<iframe width="0" height="0" src="https://www.youtube.com/embed/3kfi54t23pY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 <style type="text/css">
 	body {
