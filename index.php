@@ -16,7 +16,7 @@
 </head>
 <body>
 <h1 class="glow">Happy Birthday ADITI</h1>
-<image src="picback.gif"></image>
+
 <canvas id="birthday"></canvas>
 
 </body>
