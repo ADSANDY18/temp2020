@@ -15,7 +15,9 @@
 	<title>ADITI</title>
 </head>
 <body>
-	<button onclick="playAudio()" type="button" id="btnaudio">press me>></button>
+	<button onclick="playAudio()" type="button" id="btnaudio">First press me>></button>
+	<br>
+	<button onclick="playAudio()" type="button" id="btnaudio">Then press me>></button>
 <h1 class="glow">Happy Birthday ADITI</h1>
 
 <canvas id="birthday"></canvas>
