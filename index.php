@@ -2,13 +2,13 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="theme-color" content="#4285f4">
+    <meta name="theme-color" content="#000000">
 <!-- Windows Phone -->
-<meta name="msapplication-navbutton-color" content="#4285f4">
+<meta name="msapplication-navbutton-color" content="#000000">
 <!-- iOS Safari -->
-<meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
+<meta name="apple-mobile-web-app-status-bar-style" content="#000000">
  
     <link href="https://fonts.googleapis.com/css?family=Lato|Nanum+Gothic:700|Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="StyleNeon.css">
