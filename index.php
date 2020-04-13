@@ -2,21 +2,23 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-    <meta name="theme-color" content="#000000">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#4285f4">
 <!-- Windows Phone -->
-<meta name="msapplication-navbutton-color" content="#000000">
+<meta name="msapplication-navbutton-color" content="#4285f4">
 <!-- iOS Safari -->
-<meta name="apple-mobile-web-app-status-bar-style" content="#000000">
-   
+<meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
  
     <link href="https://fonts.googleapis.com/css?family=Lato|Nanum+Gothic:700|Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="StyleNeon.css">
 	<title>ADITI</title>
 </head>
 <body>
-	<h7 style="color: white;font-family: "Source Sans Pro"">press the screen any where as much as you can</h7>
 <h1 class="glow">Happy Birthday ADITI</h1>
+<image src="picback.gif"></image>
 <canvas id="birthday"></canvas>
+
 </body>
 <style type="text/css">
 	body {
