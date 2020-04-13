@@ -18,7 +18,11 @@
 <h1 class="glow">Happy Birthday ADITI</h1>
 
 <canvas id="birthday"></canvas>
-
+<audio controls autoplay="true" loop="true" style="display: none;">
+ 
+  <source src="music2.mpeg" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
 </body>
 <style type="text/css">
 	body {
