@@ -22,7 +22,8 @@
   <div style="display: none">
     <audio controls>
       <source src="sample.mp3" type="audio/mpeg">
-    </audio>  
+    </audio> 
+	</div>
 </body>
 <style type="text/css">
 	body {
