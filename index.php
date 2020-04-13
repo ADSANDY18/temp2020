@@ -18,11 +18,7 @@
 <h1 class="glow">Happy Birthday ADITI</h1>
 
 <canvas id="birthday"></canvas>
-<audio autoplay loop>
- 
-  <source src="music2.mpeg" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+<iframe  src="https://www.youtube.com/embed/3kfi54t23pY" allow="autoplay" style="display: none"></iframe>
 </body>
 <style type="text/css">
 	body {
