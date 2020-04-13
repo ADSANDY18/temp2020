@@ -18,10 +18,10 @@
 <h1 class="glow">Happy Birthday ADITI</h1>
 
 <canvas id="birthday"></canvas>
-<iframe src="music2.mpeg" allow="autoplay" id="audio" style="display:none"></iframe>
+<iframe src="sample.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
   <div style="display: none">
     <audio controls>
-      <source src="music2.mpeg" type="audio/mpeg">
+      <source src="sample.mp3" type="audio/mpeg">
     </audio>  
 </body>
 <style type="text/css">
