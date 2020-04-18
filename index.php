@@ -89,6 +89,7 @@ body {
  height: 100px;
  padding: 20px;
  border-radius: 40px;
+ font-size: 3em;
 
 }
 </style>
