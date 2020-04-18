@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <meta name="theme-color" content="#000000">
 <!-- Windows Phone -->
 <meta name="msapplication-navbutton-color" content="#000000">
@@ -34,6 +34,11 @@ body {
   width: 100%;
   height: 100%;
   padding: 20px;
+  margin-top: 40%;
+}
+.content h1
+{
+  margin-top: 10%;
 }
 
 #myBtn {
@@ -80,7 +85,9 @@ body {
   margin: 4px 2px;
   cursor: pointer;
  margin-left: 20%;
- width: 300px;
+ width: 600px;
+ height: 100px;
+ padding: 20px;
  border-radius: 40px;
 
 }
