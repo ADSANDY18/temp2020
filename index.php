@@ -110,7 +110,7 @@ body {
   <button onclick="playAudio()"  class="button button5">First Click me!!>>>>></button>
 </div>
 <div class="btn">
-  <button class="button button5"><a src="2ndpage.html">Then click me>>></a></button>
+  <button class="button button5"><a href="2ndpage.html">Then click me>>></a></button>
 </div>
 </div>
 
